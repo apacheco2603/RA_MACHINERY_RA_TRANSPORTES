@@ -44,7 +44,7 @@ export default function AboutView() {
       </section>
 
       {/* Misión y Visión */}
-      <section className="bg-black text-white py-16 border-t-8 border-[#FFB700]">
+      <section className="bg-black text-white py-16 border-t-4 border-[#FFB700]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="space-y-4">

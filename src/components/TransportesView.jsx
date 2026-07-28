@@ -6,7 +6,7 @@ export default function TransportesView() {
     <div className="animate-fadeIn">
       
       {/* HERO SECTION DE TRANSPORTES */}
-      <section className="relative bg-black text-white py-24 lg:py-32 overflow-hidden border-b-8 border-[#FFB700]">
+      <section className="relative bg-black text-white py-24 lg:py-32 overflow-hidden border-b-4 border-[#FFB700]">
         <div className="absolute inset-0 opacity-30 bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1600&q=80')"}}></div>
         <div className="absolute right-0 top-0 w-1/2 h-full bg-gray-900 transform skew-x-12 translate-x-32 opacity-50 pointer-events-none"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left z-10">

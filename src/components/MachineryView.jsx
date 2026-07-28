@@ -7,7 +7,7 @@ export default function MachineryView() {
     <div className="animate-fadeIn">
       
       {/* HERO SECTION DE MAQUINARIA */}
-      <section className="relative bg-black text-white py-24 lg:py-32 overflow-hidden border-b-8 border-[#FFB700]">
+      <section className="relative bg-black text-white py-24 lg:py-32 overflow-hidden border-b-4 border-[#FFB700]">
         <div className="absolute inset-0 opacity-40 bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1600&q=80')"}}></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left">
           <div className="md:w-2/3 space-y-6">
