@@ -15,7 +15,8 @@ export default function MachineryView() {
               Importación Directa
             </span>
             <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black leading-tight uppercase">
-              Maquinaria Pesada e Importación Directa sin Intermediarios en Perú
+              <span className="hidden sm:inline">Maquinaria Pesada e Importación Directa sin Intermediarios en Perú</span>
+              <span className="sm:hidden">Venta de maquinaria pesada Importada</span>
             </h1>
             <p className="text-sm sm:text-lg text-gray-300 font-medium leading-relaxed">
               Al no tener revendedores en medio, te damos el precio más competitivo del mercado. Además, con nuestra propia flota de RA Transportes, te entregamos el equipo operando directamente en tu proyecto u obra minera. Un solo precio, un solo responsable, cero comisiones ocultas.
