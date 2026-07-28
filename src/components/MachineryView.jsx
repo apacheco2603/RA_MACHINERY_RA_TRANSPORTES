@@ -1,4 +1,4 @@
-import { Truck, ShieldCheck } from 'lucide-react';
+import { Truck, ShieldCheck, DollarSign, SearchCheck } from 'lucide-react';
 import CatalogView from './CatalogView';
 import ClientCarousel from './ClientCarousel';
 
@@ -32,23 +32,50 @@ export default function MachineryView() {
         </div>
       </section>
 
-      {/* BANNER DE SINERGIA (FLETE) */}
-      <section className="bg-[#FFB700] text-black py-8 shadow-inner">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-4">
-            <div className="bg-black p-3 rounded text-[#FFB700] hidden sm:block">
-              <ShieldCheck className="w-8 h-8" />
+      {/* SECCIÓN DE RESPALDO */}
+      <section className="bg-white py-16 lg:py-20 border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-3xl sm:text-4xl font-black text-black uppercase tracking-tight">
+              ¿Por qué con nosotros tienes mejor precio y cero riesgos?
+            </h2>
+            <div className="w-24 h-1.5 bg-[#FFB700] mx-auto mt-6"></div>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Bloque 1 */}
+            <div className="bg-gray-50 border border-gray-100 p-8 rounded shadow-sm hover:shadow-lg transition hover:-translate-y-1">
+              <div className="w-14 h-14 bg-[#FFB700] flex items-center justify-center rounded mb-6 shadow">
+                <DollarSign className="w-7 h-7 text-black" />
+              </div>
+              <h3 className="text-lg font-black uppercase text-black mb-4">1. Precios de Importador Directo</h3>
+              <p className="text-gray-600 leading-relaxed text-sm">
+                Olvídate de pagar las comisiones del revendedor, del broker y de la tienda comercial. Al importar directamente y operar nuestra propia logística aduanera (Régimen 10/70), te trasladamos ese ahorro directamente al precio final de la máquina.
+              </p>
             </div>
-            <div>
-              <h3 className="text-xl font-black uppercase">Solución Integral: Importación + Transporte</h3>
-              <p className="text-gray-900 font-medium text-sm mt-1">
-                Importamos tu maquinaria y <strong>RA TRANSPORTES</strong> se encarga del flete pesado hasta tu proyecto.
+
+            {/* Bloque 2 */}
+            <div className="bg-gray-50 border border-gray-100 p-8 rounded shadow-sm hover:shadow-lg transition hover:-translate-y-1">
+              <div className="w-14 h-14 bg-[#FFB700] flex items-center justify-center rounded mb-6 shadow">
+                <SearchCheck className="w-7 h-7 text-black" />
+              </div>
+              <h3 className="text-lg font-black uppercase text-black mb-4">2. Inspección 100% Transparente y Real</h3>
+              <p className="text-gray-600 leading-relaxed text-sm">
+                Aquí no te vendemos sorpresas ni fotos de catálogo. Cada equipo incluye reporte técnico real de horómetro, sistema hidráulico, rodamiento y motor. Puedes venir a nuestro patio con tu mecánico de confianza o solicitar prueba de video en vivo antes de soltar un sol.
+              </p>
+            </div>
+
+            {/* Bloque 3 */}
+            <div className="bg-gray-50 border border-gray-100 p-8 rounded shadow-sm hover:shadow-lg transition hover:-translate-y-1">
+              <div className="w-14 h-14 bg-[#FFB700] flex items-center justify-center rounded mb-6 shadow">
+                <Truck className="w-7 h-7 text-black" />
+              </div>
+              <h3 className="text-lg font-black uppercase text-black mb-4">3. Flete Asegurado con RA Transportes</h3>
+              <p className="text-gray-600 leading-relaxed text-sm">
+                El negocio tradicional te vende la máquina y te deja abandonado con el problema del flete. Nosotros somos dueños de nuestra propia flota de camas bajas (RA Transportes). Llevamos tu excavadora o tractor hasta tu proyecto en cualquier zona minera con seguro de carga y tarifas preferenciales.
               </p>
             </div>
           </div>
-          <a href="https://wa.me/51924291787" target="_blank" rel="noreferrer" className="bg-black hover:bg-gray-800 text-white px-6 py-3 rounded font-bold flex items-center gap-2 whitespace-nowrap transition uppercase text-sm">
-            <Truck className="w-5 h-5 text-[#FFB700]" /> Cotizar Flete de Máquina
-          </a>
         </div>
       </section>
 
