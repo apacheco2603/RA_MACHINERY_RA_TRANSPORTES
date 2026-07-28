@@ -7,10 +7,10 @@ export default function AboutView() {
           <span className="bg-[#FFB700]/20 border border-[#FFB700] text-black text-xs font-bold uppercase tracking-widest px-3.5 py-1.5 rounded-full inline-block mb-4">
             Quiénes Somos
           </span>
-          <h1 className="text-4xl sm:text-5xl font-black text-black uppercase tracking-tight mb-6">
+          <h1 className="text-3xl sm:text-5xl font-black text-black uppercase tracking-tight mb-6">
             Potencia y Solidez para el Desarrollo Minero e Industrial del Perú
           </h1>
-          <p className="text-lg text-gray-600 font-medium leading-relaxed">
+          <p className="text-base sm:text-lg text-gray-600 font-medium leading-relaxed">
             En RA MACHINERY combinamos años de experiencia en la importación de maquinaria pesada de alta gama con un respaldo logístico integral.
           </p>
         </div>
@@ -20,8 +20,8 @@ export default function AboutView() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h2 className="text-3xl font-black text-black uppercase">Nuestra Historia y Enfoque</h2>
-            <p className="text-gray-600 leading-relaxed">
+            <h2 className="text-2xl sm:text-3xl font-black text-black uppercase">Nuestra Historia y Enfoque</h2>
+            <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
               Nacimos para suplir la necesidad de equipos confiables y de alto rendimiento en las operaciones más exigentes del país, abarcando minería subterránea y tajo abierto, construcción civil y proyectos de gran envergadura.
             </p>
             <div className="bg-gray-50 p-6 rounded border-l-4 border-[#FFB700]">

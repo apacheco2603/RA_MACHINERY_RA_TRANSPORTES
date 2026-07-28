@@ -47,12 +47,12 @@ export default function CatalogView() {
         
         {/* Encabezado del Catálogo */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="bg-[#FFB700] text-black text-xs font-black uppercase tracking-widest px-3.5 py-1.5 rounded inline-block mb-4 shadow-sm">
+          <span className="bg-[#FFB700] text-black text-[10px] sm:text-xs font-black uppercase tracking-widest px-3.5 py-1.5 rounded inline-block mb-4 shadow-sm">
             Flota e Importación Directa
           </span>
-          <h2 className="text-3xl sm:text-4xl font-black text-black uppercase tracking-tight">Catálogo de Equipos Pesados</h2>
+          <h2 className="text-2xl sm:text-4xl font-black text-black uppercase tracking-tight">Catálogo de Equipos Pesados</h2>
           <div className="w-24 h-1.5 bg-[#FFB700] mx-auto mt-4 mb-4"></div>
-          <p className="text-gray-700 font-medium">Maquinaria de alto rendimiento importada bajo rigurosos estándares para la minería y construcción en el Perú.</p>
+          <p className="text-sm sm:text-base text-gray-700 font-medium">Maquinaria de alto rendimiento importada bajo rigurosos estándares para la minería y construcción en el Perú.</p>
         </div>
 
         {/* Filtros de Categorías */}
