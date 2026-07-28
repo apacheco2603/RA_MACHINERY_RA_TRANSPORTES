@@ -48,13 +48,16 @@ export default function Navbar({ activeTab, setActiveTab }) {
             
             {/* Logo Dinámico */}
             <div className="flex items-center cursor-pointer" onClick={() => handleTabClick('machinery')}>
-              <div className="flex items-center gap-2">
-                <div className="bg-black text-[#FFB700] p-2.5 rounded font-black text-xl tracking-wider shadow">RA</div>
-                <span className="font-bold text-xl text-black tracking-tight">
-                  {isMachinery ? "MACHINERY" : "TRANSPORTES"} 
-                  {isMachinery && <span className="text-[#FFB700]"> PERÚ</span>}
-                </span>
-              </div>
+              {isMachinery ? (
+                <img src="/logo-black.png" alt="RA Machinery" className="h-16 w-auto object-contain rounded" />
+              ) : (
+                <div className="flex items-center gap-2">
+                  <div className="bg-black text-[#FFB700] p-2.5 rounded font-black text-xl tracking-wider shadow">RA</div>
+                  <span className="font-bold text-xl text-black tracking-tight">
+                    TRANSPORTES
+                  </span>
+                </div>
+              )}
             </div>
 
             {/* Menú de Escritorio */}

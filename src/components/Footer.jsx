@@ -9,11 +9,8 @@ export default function Footer() {
           
           {/* Columna 1: Identidad y Sinergia */}
             <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="bg-[#FFB700] text-black p-2 rounded font-black text-lg tracking-wider">RA</div>
-              <span className="font-bold text-lg tracking-tight uppercase">
-                MACHINERY & <span className="text-[#FFB700]">TRANSPORTES</span>
-              </span>
+            <div className="flex items-center">
+              <img src="/logo-black.png" alt="RA Machinery" className="h-16 w-auto object-contain" />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Solución integral en importación de maquinaria pesada para la minería y construcción en el Perú, respaldada por nuestro servicio especializado de flete con camas bajas.
