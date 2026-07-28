@@ -15,14 +15,17 @@ export default function MachineryView() {
               Importación Directa
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight uppercase">
-              Potencia para la Minería en el Perú
+              Maquinaria Pesada e Importación Directa sin Intermediarios en Perú
             </h1>
-            <p className="text-lg text-gray-300 font-medium">
-              Especialistas en la importación de maquinaria pesada de alto rendimiento. Resolvemos la compra y el traslado hasta tu unidad minera.
+            <p className="text-lg text-gray-300 font-medium leading-relaxed">
+              Al no tener revendedores en medio, te damos el precio más competitivo del mercado. Además, con nuestra propia flota de RA Transportes, te entregamos el equipo operando directamente en tu proyecto u obra minera. Un solo precio, un solo responsable, cero comisiones ocultas.
             </p>
-            <div className="pt-4">
+            <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a href="#catalogo" className="inline-block bg-[#FFB700] text-black px-8 py-3.5 font-bold text-center hover:bg-yellow-500 transition shadow-lg uppercase text-sm rounded">
-                Ver Catálogo
+                Ver Maquinaria con Precio Directo
+              </a>
+              <a href="https://wa.me/51924291787" target="_blank" rel="noreferrer" className="inline-block bg-transparent border-2 border-[#FFB700] text-[#FFB700] px-8 py-3.5 font-bold text-center hover:bg-[#FFB700] hover:text-black transition shadow-lg uppercase text-sm rounded">
+                Cotizar Importación a Pedido
               </a>
             </div>
           </div>
