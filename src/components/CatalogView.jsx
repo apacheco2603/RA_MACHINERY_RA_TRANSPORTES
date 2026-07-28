@@ -7,10 +7,10 @@ const machineryList = [
     name: "Excavadora CAT E326",
     category: "Movimiento de Tierras / Minería",
     image: "/excavadora.jpeg",
-    description: "Rendimiento confiable y alta eficiencia de combustible para operaciones de excavación pesada en proyectos mineros y de construcción.",
+    description: "Equipo importado de Europa, mantenimiento realizado con repuestos originales.",
     specs: [
-      "Potencia del Motor: 206 HP",
-      "Peso Operativo: 26,000 kg",
+      "Motor: C7.1 Acert",
+      "Peso Neto: 26,000 kg",
       "Capacidad de Cuchara: 1.4 m³"
     ]
   },
@@ -19,10 +19,10 @@ const machineryList = [
     name: "Cargador Frontal 966H",
     category: "Carga y Acarreo",
     image: "/cargador.jpg",
-    description: "Excelente versatilidad y fuerza óptima para manipulación de materiales, carga de tolvas y trabajo continuo en canteras.",
+    description: "Equipo importado de Europa, mantenimiento realizado con repuestos originales.",
     specs: [
-      "Potencia del Motor: 276 HP",
-      "Peso Operativo: 23,200 kg",
+      "Motor: C7.1 Acert",
+      "Peso Neto: 23,200 kg",
       "Capacidad de Cuchara: 3.4 m³"
     ]
   },
@@ -31,11 +31,11 @@ const machineryList = [
     name: "Tractor de Orugas (Bulldozer) D6G",
     category: "Preparación y Empuje",
     image: "/Bulldozer.jpg",
-    description: "Potencia de tracción superior y durabilidad legendaria en terrenos difíciles, ideal para apertura de trochas y nivelación.",
+    description: "Equipo importado de Europa, mantenimiento realizado con repuestos originales.",
     specs: [
-      "Potencia del Motor: 165 HP",
-      "Peso Operativo: 16,500 kg",
-      "Hoja Topadora Recta con Inclinación"
+      "Motor: C7.1 Acert",
+      "Peso Neto: 16,500 kg",
+      "Accesorio: Hoja Topadora"
     ]
   }
 ];
@@ -104,7 +104,7 @@ export default function CatalogView() {
                 <a href="https://wa.me/51924291787" target="_blank" rel="noreferrer" className="w-full bg-[#FFB700] hover:bg-yellow-500 text-black text-center font-black py-3 px-4 rounded shadow transition text-sm flex items-center justify-center gap-2 uppercase">
                   <FileText className="w-4 h-4" /> Cotizar Equipo
                 </a>
-                <a href="#transporte" className="w-full bg-black hover:bg-gray-900 text-white text-center font-bold py-3 px-4 rounded transition text-xs flex items-center justify-center gap-2 uppercase border border-gray-800">
+                <a href="#transportes" className="w-full bg-black hover:bg-gray-900 text-white text-center font-bold py-3 px-4 rounded transition text-xs flex items-center justify-center gap-2 uppercase border border-gray-800">
                   <Truck className="w-4 h-4 text-[#FFB700]" /> Consultar Flete con RA Transportes
                 </a>
               </div>
