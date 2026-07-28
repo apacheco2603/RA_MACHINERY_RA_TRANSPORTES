@@ -26,7 +26,9 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-gray-400">
               <li className="flex items-start gap-2">
                 <MapPin className="w-5 h-5 text-[#FFB700] shrink-0 mt-0.5" />
-                <span>Av. Industrial / Zona Minera, Lima - Perú</span>
+                <a href="https://maps.app.goo.gl/Tibwwbo4okkVWEvHA" target="_blank" rel="noreferrer" className="hover:text-[#FFB700] transition">
+                  Ctra. Cieneguilla, Pachacamac 15593
+                </a>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-[#FFB700] shrink-0" />
@@ -34,7 +36,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-5 h-5 text-[#FFB700] shrink-0" />
-                <span>contacto@ramachineryperu.com</span>
+                <a href="mailto:ventas@ramachineryperu.com" className="hover:text-[#FFB700] transition">ventas@ramachineryperu.com</a>
               </li>
             </ul>
           </div>
