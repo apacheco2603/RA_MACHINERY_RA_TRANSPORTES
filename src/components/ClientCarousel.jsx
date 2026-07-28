@@ -87,34 +87,52 @@ export default function ClientCarousel() {
 
           </div>
 
-          {/* Botones de Control (Flechas adaptadas para no salirse de pantallas pequeñas) */}
+          {/* Botones de Control (Desktop) */}
           <button 
             onClick={prevSlide}
-            className="absolute left-1 sm:left-[-1.5rem] top-1/2 -translate-y-1/2 bg-[#FFB700] hover:bg-yellow-500 text-black p-2.5 sm:p-3 rounded-full shadow-xl transition z-10 focus:outline-none"
+            className="hidden sm:block absolute sm:left-[-1.5rem] top-1/2 -translate-y-1/2 bg-[#FFB700] hover:bg-yellow-500 text-black p-3 rounded-full shadow-xl transition z-10 focus:outline-none"
             aria-label="Anterior"
           >
-            <ArrowLeft className="w-5 h-5 sm:w-6 sm:h-6" />
+            <ArrowLeft className="w-6 h-6" />
           </button>
           <button 
             onClick={nextSlide}
-            className="absolute right-1 sm:right-[-1.5rem] top-1/2 -translate-y-1/2 bg-[#FFB700] hover:bg-yellow-500 text-black p-2.5 sm:p-3 rounded-full shadow-xl transition z-10 focus:outline-none"
+            className="hidden sm:block absolute sm:right-[-1.5rem] top-1/2 -translate-y-1/2 bg-[#FFB700] hover:bg-yellow-500 text-black p-3 rounded-full shadow-xl transition z-10 focus:outline-none"
             aria-label="Siguiente"
           >
-            <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6" />
+            <ArrowRight className="w-6 h-6" />
           </button>
           
-          {/* Puntos Indicadores */}
-          <div className="flex justify-center gap-2 mt-6">
-            {slides.map((_, slideIndex) => (
-              <button
-                key={slideIndex}
-                onClick={() => setCurrentIndex(slideIndex)}
-                className={`h-3 rounded-full transition-all ${
-                  currentIndex === slideIndex ? 'bg-[#FFB700] w-6' : 'bg-gray-300 w-3'
-                }`}
-                aria-label={`Ir al slide ${slideIndex + 1}`}
-              />
-            ))}
+          {/* Puntos Indicadores y Flechas (Móvil) */}
+          <div className="flex justify-between items-center sm:justify-center mt-6 px-4 sm:px-0">
+            <button 
+              onClick={prevSlide}
+              className="sm:hidden bg-[#FFB700] hover:bg-yellow-500 text-black p-2 rounded-full shadow-xl transition focus:outline-none"
+              aria-label="Anterior"
+            >
+              <ArrowLeft className="w-5 h-5" />
+            </button>
+            
+            <div className="flex justify-center gap-2">
+              {slides.map((_, slideIndex) => (
+                <button
+                  key={slideIndex}
+                  onClick={() => setCurrentIndex(slideIndex)}
+                  className={`h-3 rounded-full transition-all ${
+                    currentIndex === slideIndex ? 'bg-[#FFB700] w-6' : 'bg-gray-300 w-3'
+                  }`}
+                  aria-label={`Ir al slide ${slideIndex + 1}`}
+                />
+              ))}
+            </div>
+
+            <button 
+              onClick={nextSlide}
+              className="sm:hidden bg-[#FFB700] hover:bg-yellow-500 text-black p-2 rounded-full shadow-xl transition focus:outline-none"
+              aria-label="Siguiente"
+            >
+              <ArrowRight className="w-5 h-5" />
+            </button>
           </div>
 
         </div>
