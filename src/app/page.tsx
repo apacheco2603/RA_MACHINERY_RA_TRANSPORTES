@@ -33,7 +33,7 @@ export default function Home() {
             onClick={() => setActiveTab('machinery')}
             className={`w-full sm:w-auto px-6 py-3 sm:py-4 font-black uppercase tracking-widest text-xs sm:text-base transition-all duration-300 ${
               activeTab === 'machinery' 
-                ? 'bg-[#FFB700] text-black shadow-[inset_0_-4px_0_0_#000]' 
+                ? 'bg-[#FFB700] text-black' 
                 : 'text-gray-400 hover:text-white hover:bg-gray-900'
             }`}
           >
@@ -43,7 +43,7 @@ export default function Home() {
             onClick={() => setActiveTab('transportes')}
             className={`w-full sm:w-auto px-6 py-3 sm:py-4 font-black uppercase tracking-widest text-xs sm:text-base transition-all duration-300 ${
               activeTab === 'transportes' 
-                ? 'bg-[#FFB700] text-black shadow-[inset_0_-4px_0_0_#000]' 
+                ? 'bg-[#FFB700] text-black' 
                 : 'text-gray-400 hover:text-white hover:bg-gray-900'
             }`}
           >
