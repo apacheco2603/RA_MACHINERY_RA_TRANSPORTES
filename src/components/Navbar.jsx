@@ -41,8 +41,8 @@ export default function Navbar({ activeTab, setActiveTab }) {
         </div>
       </div>
 
-      {/* Navbar principal con diseño original (fondo blanco) */}
-      <nav className="bg-white shadow-md relative z-50">
+      {/* Navbar principal con diseño original (fondo negro) */}
+      <nav className="bg-black shadow-md relative z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-24">
             
@@ -56,7 +56,7 @@ export default function Navbar({ activeTab, setActiveTab }) {
             </div>
 
             {/* Menú de Escritorio */}
-            <div className="hidden md:flex items-center space-x-6 font-medium text-black">
+            <div className="hidden md:flex items-center space-x-6 font-medium text-white">
               {isMachinery ? (
                 <>
                   <button onClick={() => handleTabClick('machinery')} className="hover:text-[#FFB700] transition font-bold uppercase text-sm">Inicio</button>
@@ -64,7 +64,7 @@ export default function Navbar({ activeTab, setActiveTab }) {
                   <a href="/#catalogo" className="hover:text-[#FFB700] transition uppercase text-sm">Catálogo de Equipos</a>
                   <button 
                     onClick={() => handleTabClick('transportes')} 
-                    className="bg-gray-100 hover:bg-black hover:text-white text-black border border-gray-300 px-4 py-2 rounded text-xs font-black flex items-center gap-2 uppercase transition shadow-sm"
+                    className="bg-gray-800 hover:bg-gray-700 text-white border border-gray-700 px-4 py-2 rounded text-xs font-black flex items-center gap-2 uppercase transition shadow-sm"
                   >
                     <Truck className="w-4 h-4 text-[#FFB700]" /> RA Transportes <ChevronRight className="w-3 h-3" />
                   </button>
@@ -75,7 +75,7 @@ export default function Navbar({ activeTab, setActiveTab }) {
                   <a href="/#servicios-transporte" className="hover:text-[#FFB700] transition uppercase text-sm">Servicios de Flete</a>
                   <button 
                     onClick={() => handleTabClick('machinery')} 
-                    className="bg-gray-100 hover:bg-black hover:text-white text-black border border-gray-300 px-4 py-2 rounded text-xs font-black flex items-center gap-2 uppercase transition shadow-sm"
+                    className="bg-gray-800 hover:bg-gray-700 text-white border border-gray-700 px-4 py-2 rounded text-xs font-black flex items-center gap-2 uppercase transition shadow-sm"
                   >
                     <Wrench className="w-4 h-4 text-[#FFB700]" /> RA Machinery <ChevronRight className="w-3 h-3" />
                   </button>
@@ -91,7 +91,7 @@ export default function Navbar({ activeTab, setActiveTab }) {
             <div className="md:hidden flex items-center">
               <button 
                 onClick={() => setIsOpen(!isOpen)}
-                className="text-black hover:text-[#FFB700] focus:outline-none"
+                className="text-white hover:text-[#FFB700] focus:outline-none"
               >
                 {isOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
               </button>
@@ -101,26 +101,26 @@ export default function Navbar({ activeTab, setActiveTab }) {
 
         {/* Menú Desplegable Móvil */}
         {isOpen && (
-          <div className="md:hidden bg-white border-b border-gray-200 px-4 pt-3 pb-6 space-y-3 shadow-lg">
+          <div className="md:hidden bg-black border-b border-gray-800 px-4 pt-3 pb-6 space-y-3 shadow-lg">
             {isMachinery ? (
               <>
-                <button onClick={() => { handleTabClick('machinery'); setIsOpen(false); }} className="block w-full text-left text-black hover:text-[#FFB700] font-bold uppercase text-sm py-1">Inicio</button>
-                <a href="/nosotros" onClick={() => setIsOpen(false)} className="block text-black hover:text-[#FFB700] font-medium uppercase text-sm py-1">Nosotros</a>
-                <a href="/#catalogo" onClick={() => setIsOpen(false)} className="block text-black hover:text-[#FFB700] font-medium uppercase text-sm py-1">Catálogo de Equipos</a>
+                <button onClick={() => { handleTabClick('machinery'); setIsOpen(false); }} className="block w-full text-left text-white hover:text-[#FFB700] font-bold uppercase text-sm py-1">Inicio</button>
+                <a href="/nosotros" onClick={() => setIsOpen(false)} className="block text-white hover:text-[#FFB700] font-medium uppercase text-sm py-1">Nosotros</a>
+                <a href="/#catalogo" onClick={() => setIsOpen(false)} className="block text-white hover:text-[#FFB700] font-medium uppercase text-sm py-1">Catálogo de Equipos</a>
                 <button 
                   onClick={() => { handleTabClick('transportes'); setIsOpen(false); }} 
-                  className="w-full mt-2 bg-black text-white hover:bg-gray-800 py-2.5 px-4 rounded font-bold flex items-center justify-center gap-2 uppercase text-xs"
+                  className="w-full mt-2 bg-gray-800 text-white hover:bg-gray-700 py-2.5 px-4 rounded font-bold flex items-center justify-center gap-2 uppercase text-xs"
                 >
                   <Truck className="w-4 h-4 text-[#FFB700]" /> RA Transportes
                 </button>
               </>
             ) : (
               <>
-                <button onClick={() => { handleTabClick('transportes'); setIsOpen(false); }} className="block w-full text-left text-black hover:text-[#FFB700] font-bold uppercase text-sm py-1">Inicio (Transportes)</button>
-                <a href="/#servicios-transporte" onClick={() => setIsOpen(false)} className="block text-black hover:text-[#FFB700] font-medium uppercase text-sm py-1">Servicios de Flete</a>
+                <button onClick={() => { handleTabClick('transportes'); setIsOpen(false); }} className="block w-full text-left text-white hover:text-[#FFB700] font-bold uppercase text-sm py-1">Inicio (Transportes)</button>
+                <a href="/#servicios-transporte" onClick={() => setIsOpen(false)} className="block text-white hover:text-[#FFB700] font-medium uppercase text-sm py-1">Servicios de Flete</a>
                 <button 
                   onClick={() => { handleTabClick('machinery'); setIsOpen(false); }} 
-                  className="w-full mt-2 bg-black text-white hover:bg-gray-800 py-2.5 px-4 rounded font-bold flex items-center justify-center gap-2 uppercase text-xs"
+                  className="w-full mt-2 bg-gray-800 text-white hover:bg-gray-700 py-2.5 px-4 rounded font-bold flex items-center justify-center gap-2 uppercase text-xs"
                 >
                   <Wrench className="w-4 h-4 text-[#FFB700]" /> RA Machinery
                 </button>
