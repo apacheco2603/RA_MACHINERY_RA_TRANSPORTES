@@ -7,26 +7,26 @@ export default function ClientCarousel() {
   const slides = [
     {
       id: 1,
-      image: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80", // Reemplazar con la foto real de tu cliente
-      location: "Arequipa - Proyecto Minero",
-      title: "Entrega de Excavadora de 30 Toneladas",
-      description: "Importación directa por RA MACHINERY y traslado realizado mediante la flota de camas bajas de RA TRANSPORTES con total éxito.",
+      image: "/client1.jpg",
+      location: "Arequipa",
+      title: "Confianza en Cada Entrega",
+      description: "Nuestros clientes viajaron desde Arequipa para inspeccionar los equipos en persona. Tras comprobar la calidad técnica y la transparencia de nuestra operación, celebramos el acuerdo comercial con un almuerzo de camaradería previo al despacho.",
       client: "Contratista Minero"
     },
     {
       id: 2,
-      image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=800&q=80", // Reemplazar con la foto real de tu cliente
-      location: "Cusco - Obras Viales",
-      title: "Cargador Frontal en Operación",
-      description: "Equipo entregado en la puerta del proyecto gracias a nuestra logística integral de transporte de carga pesada.",
+      image: "/client2.jpg",
+      location: "Cusco",
+      title: "Alianzas que Construyen",
+      description: "Desde Cusco, este equipo de trabajo nos visitó para adquirir maquinaria pesada de importación directa. Verificaron el excelente estado de los componentes y, tras cerrar el trato, coordinamos el envío directo a su proyecto de construcción.",
       client: "Empresa Constructora"
     },
     {
       id: 3,
-      image: "https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=800&q=80", // Reemplazar con la foto real de tu cliente
-      location: "Lima - Planta Industrial",
-      title: "Tractor de Oruga (Dozer)",
-      description: "Desaduanaje e importación ágil, con flete seguro y escolta hasta las instalaciones del cliente.",
+      image: "/client3.jpg",
+      location: "Huancayo",
+      title: "Asesoría y Transparencia",
+      description: "Un importante consorcio de Huancayo confió en nosotros para renovar su flota. Les brindamos asesoría completa y acceso total para que su mecánico revise cada detalle. Festejamos la exitosa compra antes de iniciar el flete a obra.",
       client: "Consorcio Logístico"
     }
   ];
@@ -51,9 +51,9 @@ export default function ClientCarousel() {
         
         {/* Encabezado */}
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="text-2xl sm:text-3xl font-black text-black uppercase tracking-tight">Entregas y Proyectos</h2>
+          <h2 className="text-2xl sm:text-3xl font-black text-black uppercase tracking-tight">Clientes Satisfechos</h2>
           <div className="w-24 h-1.5 bg-[#FFB700] mx-auto mt-4 mb-4"></div>
-          <p className="text-gray-600 text-sm sm:text-base font-medium">Casos de éxito reales: Maquinaria entregada y operando a nivel nacional.</p>
+          <p className="text-gray-600 text-sm sm:text-base font-medium">Historias de éxito y alianzas comerciales forjadas con total transparencia.</p>
         </div>
 
         {/* Contenedor del Carrusel */}
