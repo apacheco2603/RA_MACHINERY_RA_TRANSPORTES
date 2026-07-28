@@ -14,7 +14,7 @@ export default function MachineryView() {
             <span className="inline-block bg-[#FFB700] text-black text-xs font-bold uppercase tracking-widest px-3 py-1 rounded">
               Importación Directa
             </span>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight uppercase">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight uppercase">
               Maquinaria Pesada e Importación Directa sin Intermediarios en Perú
             </h1>
             <p className="text-lg text-gray-300 font-medium leading-relaxed">
