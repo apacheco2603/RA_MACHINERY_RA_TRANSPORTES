@@ -23,7 +23,7 @@ export default function Navbar({ activeTab, setActiveTab }) {
   return (
     <>
       {/* Topbar informativo */}
-      <div className="bg-black text-gray-300 text-xs sm:text-sm py-2 px-4 border-b border-gray-800">
+      <div className="bg-black text-gray-300 text-xs sm:text-sm py-2 px-4 border-b border-[#FFB700]">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1">
