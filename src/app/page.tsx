@@ -28,10 +28,10 @@ export default function Home() {
       
       <div>
         {/* SWITCHER DE PESTAÑAS MAESTRAS ADAPTABLE */}
-        <div className="bg-black w-full flex flex-col sm:flex-row justify-center sticky top-0 z-[60] border-b-4 border-[#FFB700] shadow-lg">
+        <div className="bg-black w-full flex flex-row justify-center sticky top-0 z-[60] border-b-4 border-[#FFB700] shadow-lg">
           <button
             onClick={() => setActiveTab('machinery')}
-            className={`w-full sm:w-auto px-6 py-3 sm:py-4 font-black uppercase tracking-widest text-xs sm:text-base transition-all duration-300 ${
+            className={`flex-1 sm:flex-none px-2 py-3 sm:px-6 sm:py-4 font-black uppercase tracking-widest text-[10px] sm:text-base transition-all duration-300 ${
               activeTab === 'machinery' 
                 ? 'bg-[#FFB700] text-black' 
                 : 'text-gray-400 hover:text-white hover:bg-gray-900'
@@ -41,7 +41,7 @@ export default function Home() {
           </button>
           <button
             onClick={() => setActiveTab('transportes')}
-            className={`w-full sm:w-auto px-6 py-3 sm:py-4 font-black uppercase tracking-widest text-xs sm:text-base transition-all duration-300 ${
+            className={`flex-1 sm:flex-none px-2 py-3 sm:px-6 sm:py-4 font-black uppercase tracking-widest text-[10px] sm:text-base transition-all duration-300 ${
               activeTab === 'transportes' 
                 ? 'bg-[#FFB700] text-black' 
                 : 'text-gray-400 hover:text-white hover:bg-gray-900'

@@ -7,17 +7,17 @@ export default function MachineryView() {
     <div className="animate-fadeIn">
       
       {/* HERO SECTION DE MAQUINARIA */}
-      <section className="relative bg-black text-white py-24 lg:py-32 overflow-hidden border-b-4 border-[#FFB700]">
-        <div className="absolute inset-0 opacity-40 bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1600&q=80')"}}></div>
+      <section className="relative bg-black text-white py-16 lg:py-32 overflow-hidden border-b-4 border-[#FFB700]">
+        <div className="absolute inset-0 opacity-60 bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1600&q=80')"}}></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left">
           <div className="md:w-2/3 space-y-6">
             <span className="inline-block bg-[#FFB700] text-black text-xs font-bold uppercase tracking-widest px-3 py-1 rounded">
               Importación Directa
             </span>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight uppercase">
+            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black leading-tight uppercase">
               Maquinaria Pesada e Importación Directa sin Intermediarios en Perú
             </h1>
-            <p className="text-lg text-gray-300 font-medium leading-relaxed">
+            <p className="text-sm sm:text-lg text-gray-300 font-medium leading-relaxed">
               Al no tener revendedores en medio, te damos el precio más competitivo del mercado. Además, con nuestra propia flota de RA Transportes, te entregamos el equipo operando directamente en tu proyecto u obra minera. Un solo precio, un solo responsable, cero comisiones ocultas.
             </p>
             <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">

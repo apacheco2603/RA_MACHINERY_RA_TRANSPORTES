@@ -6,18 +6,18 @@ export default function TransportesView() {
     <div className="animate-fadeIn">
       
       {/* HERO SECTION DE TRANSPORTES */}
-      <section className="relative bg-black text-white py-24 lg:py-32 overflow-hidden border-b-4 border-[#FFB700]">
-        <div className="absolute inset-0 opacity-30 bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1600&q=80')"}}></div>
+      <section className="relative bg-black text-white py-16 lg:py-32 overflow-hidden border-b-4 border-[#FFB700]">
+        <div className="absolute inset-0 opacity-50 bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1600&q=80')"}}></div>
         <div className="absolute right-0 top-0 w-1/2 h-full bg-gray-900 transform skew-x-12 translate-x-32 opacity-50 pointer-events-none"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left z-10">
           <div className="md:w-2/3 space-y-6">
             <span className="inline-flex items-center gap-2 bg-[#FFB700] text-black text-xs font-bold uppercase tracking-widest px-3 py-1 rounded">
               <Truck className="w-4 h-4" /> División Logística
             </span>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight uppercase">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black leading-tight uppercase">
               RA <span className="text-[#FFB700]">TRANSPORTES</span>
             </h1>
-            <p className="text-lg text-gray-300 font-medium">
+            <p className="text-sm sm:text-lg text-gray-300 font-medium">
               Como los camiones son nuestros, te ahorras el dinero del intermediario y tu máquina viaja segura con especialistas en rutas mineras.
             </p>
             <div className="pt-4">

@@ -44,14 +44,14 @@ export default function Navbar({ activeTab, setActiveTab }) {
       {/* Navbar principal con diseño original (fondo negro) */}
       <nav className="bg-black shadow-md relative z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-24">
+          <div className="flex justify-between h-16 sm:h-24">
             
             {/* Logo Dinámico */}
             <div className="flex items-center cursor-pointer" onClick={() => handleTabClick('machinery')}>
               {isMachinery ? (
-                <img src="/logo-black.png" alt="RA Machinery" className="h-20 w-auto object-contain rounded" />
+                <img src="/logo-black.png" alt="RA Machinery" className="h-10 sm:h-20 w-auto object-contain rounded" />
               ) : (
-                <img src="/logo-transportes.png" alt="RA Transportes" className="h-20 w-auto object-contain rounded" />
+                <img src="/logo-transportes.png" alt="RA Transportes" className="h-10 sm:h-20 w-auto object-contain rounded" />
               )}
             </div>
 
