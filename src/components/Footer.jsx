@@ -1,6 +1,6 @@
 import { MapPin, Phone, Mail, ShieldCheck, Truck } from 'lucide-react';
 
-export default function Footer() {
+export default function Footer({ activeTab = 'machinery' }) {
   return (
     <footer className="bg-black text-white border-t-4 border-[#FFB700]">
       {/* SECCIÓN PRINCIPAL DEL FOOTER */}
@@ -10,7 +10,11 @@ export default function Footer() {
           {/* Columna 1: Identidad y Sinergia */}
             <div className="space-y-4">
             <div className="flex items-center">
-              <img src="/logo-black.png" alt="RA Machinery" className="h-24 w-auto object-contain" />
+              <img 
+                src={activeTab === 'transportes' ? '/logo-transportes.png' : '/logo-black.png'} 
+                alt={activeTab === 'transportes' ? 'RA Transportes' : 'RA Machinery'} 
+                className="h-24 w-auto object-contain" 
+              />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Solución integral en importación de maquinaria pesada para la minería y construcción en el Perú, respaldada por nuestro servicio especializado de flete con camas bajas.
