@@ -50,9 +50,14 @@ export default function AboutView() {
                 className="w-full h-full object-cover object-[center_60%] scale-125" 
               />
             </div>
-            <p className="mt-4 text-xs sm:text-sm font-bold text-gray-500 uppercase tracking-widest">
-              Director General
-            </p>
+            <div className="mt-4 text-center">
+              <p className="text-base sm:text-lg font-black text-black uppercase">
+                Renzo M. Altamirano Cordova
+              </p>
+              <p className="text-xs sm:text-sm font-bold text-gray-500 uppercase tracking-widest mt-1">
+                Director General
+              </p>
+            </div>
           </div>
         </div>
       </section>
