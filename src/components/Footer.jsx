@@ -9,11 +9,11 @@ export default function Footer({ activeTab = 'machinery' }) {
           
           {/* Columna 1: Identidad y Sinergia */}
             <div className="space-y-4">
-            <div className="flex items-center">
+            <div className="flex items-center h-24">
               <img 
                 src={activeTab === 'transportes' ? '/logo-transportes.png' : '/logo-black.png'} 
                 alt={activeTab === 'transportes' ? 'RA Transportes' : 'RA Machinery'} 
-                className="h-24 w-auto object-contain" 
+                className={`w-auto object-contain ${activeTab === 'transportes' ? 'h-12' : 'h-24'}`} 
               />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
