@@ -42,14 +42,17 @@ export default function AboutView() {
               </p>
             </div>
           </div>
-          <div className="flex justify-center">
+          <div className="flex flex-col items-center justify-center">
             <div className="rounded shadow-xl border-4 border-black overflow-hidden w-10/12 h-80">
               <img 
                 src="/nosotros-equipo.jpg" 
-                alt="Equipo RA Machinery y Transportes" 
+                alt="Director General RA Machinery" 
                 className="w-full h-full object-cover object-[center_60%] scale-125" 
               />
             </div>
+            <p className="mt-4 text-xs sm:text-sm font-bold text-gray-500 uppercase tracking-widest">
+              Director General
+            </p>
           </div>
         </div>
       </section>
