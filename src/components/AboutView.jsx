@@ -20,10 +20,21 @@ export default function AboutView() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-black text-black uppercase">Nuestra Historia y Enfoque</h2>
-            <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-              Nacimos para suplir la necesidad de equipos confiables y de alto rendimiento en las operaciones más exigentes del país, abarcando minería subterránea y tajo abierto, construcción civil y proyectos de gran envergadura.
-            </p>
+            <h2 className="text-2xl sm:text-3xl font-black text-black uppercase">EL EQUIPO DETRÁS DE TU INVERSIÓN</h2>
+            <div className="text-sm sm:text-base text-gray-600 leading-relaxed space-y-3">
+              <p>
+                Más que vendedores, somos tu aliado estratégico. Detrás de cada máquina que importamos hay un equipo de profesionales cuidando tu dinero:
+              </p>
+              <p>
+                <strong className="text-black">Dirección y Ventas:</strong> Evaluación técnica y selección de los mejores equipos en origen.
+              </p>
+              <p>
+                <strong className="text-black">Área Contable y Legal:</strong> Transparencia absoluta en facturación, trámites aduaneros y cumplimiento SUNAT.
+              </p>
+              <p>
+                <strong className="text-black">Operaciones y Logística:</strong> Especialistas en aduanas y transporte de carga sobredimensionada.
+              </p>
+            </div>
             <div className="bg-gray-50 p-6 rounded border-l-4 border-[#FFB700]">
               <h4 className="font-black text-black uppercase mb-1">La Sinergia Perfecta</h4>
               <p className="text-sm text-gray-700">
