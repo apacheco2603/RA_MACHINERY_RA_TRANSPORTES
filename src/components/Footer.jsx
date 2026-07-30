@@ -13,7 +13,7 @@ export default function Footer({ activeTab = 'machinery' }) {
               <img 
                 src={activeTab === 'transportes' ? '/logo-transportes.png' : '/logo-black.png'} 
                 alt={activeTab === 'transportes' ? 'RA Transportes' : 'RA Machinery'} 
-                className={`w-auto object-contain ${activeTab === 'transportes' ? 'h-12' : 'h-24'}`} 
+                className="h-24 w-auto object-contain" 
               />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">

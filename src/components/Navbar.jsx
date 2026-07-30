@@ -50,7 +50,7 @@ export default function Navbar({ activeTab, setActiveTab }) {
               {isMachinery ? (
                 <img src="/logo-black.png" alt="RA Machinery" className="h-12 sm:h-20 w-auto object-contain" />
               ) : (
-                <img src="/logo-transportes.png" alt="RA Transportes" className="h-7 sm:h-12 w-auto object-contain" />
+                <img src="/logo-transportes.png" alt="RA Transportes" className="h-12 sm:h-20 w-auto object-contain" />
               )}
             </div>
 
