@@ -36,7 +36,7 @@ export default function AboutView() {
               </p>
             </div>
             <div className="bg-gray-50 p-6 rounded border-l-4 border-[#FFB700]">
-              <h4 className="font-black text-black uppercase mb-1">LA VENTAJA EXCLUSIVA: IMPORTACIÓN + TRANSPORTE PROPIO</h4>
+              <h4 className="font-black text-black uppercase mb-1">La Sinergia Perfecta</h4>
               <p className="text-sm text-gray-700">
                 No tercerizamos. Al ser dueños de <strong>RA TRANSPORTES</strong> (nuestra propia flota de camas bajas), eliminamos los sobrecostos de terceros. Nos hacemos responsables de principio a fin: desde la compra internacional hasta descargar la máquina operando en la puerta de tu obra.
               </p>
