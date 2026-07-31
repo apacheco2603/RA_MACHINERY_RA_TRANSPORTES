@@ -28,14 +28,14 @@ const machineryList = [
   },
   {
     id: 3,
-    name: "Tractor de Orugas (Bulldozer) D6G",
-    category: "Preparación y Empuje",
-    image: "/Bulldozer.jpg",
-    description: "Equipo importado de Europa, mantenimiento realizado con repuestos originales.",
+    name: "CATERPILLAR 336 NG",
+    category: "Movimiento de Tierras / Minería",
+    image: "/cat-336-ng.jpg",
+    description: "Equipo de alto rendimiento, ideal para proyectos exigentes de minería y construcción.",
     specs: [
-      "Motor: C7.1 Acert",
-      "Peso Neto: 16,500 kg",
-      "Accesorio: Hoja Topadora"
+      "Motor: C9.3",
+      "Peso Neto: 37,200 kg",
+      "Capacidad de Cuchara: 2.27 M3"
     ]
   }
 ];
