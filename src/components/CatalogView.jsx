@@ -43,7 +43,7 @@ const machineryList = [
     name: "VOLVO L150F",
     category: "Carga y Acarreo",
     image: "/volvo-l150f.jpg",
-    description: "Cargador frontal robusto y eficiente, diseñado para máxima productividad.",
+    description: "Cargador frontal de gran capacidad y eficiencia para operaciones de carga y movimiento de materiales.",
     specs: [
       "Motor: D12D",
       "Peso Neto: 23,400 kg",
