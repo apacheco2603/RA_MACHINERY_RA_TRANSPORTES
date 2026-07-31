@@ -4,14 +4,14 @@ import { Truck, FileText } from 'lucide-react';
 const machineryList = [
   {
     id: 1,
-    name: "Excavadora CAT E326",
+    name: "CATERPILLAR 330 NG",
     category: "Movimiento de Tierras / Minería",
-    image: "/excavadora.jpeg",
-    description: "Equipo importado de Europa, mantenimiento realizado con repuestos originales.",
+    image: "/cat-330-ng.jpg",
+    description: "Equipo importado directamente. Inspeccionado y listo para operar.",
     specs: [
-      "Motor: C7.1 Acert",
-      "Peso Neto: 26,000 kg",
-      "Capacidad de Cuchara: 1.4 m³"
+      "Motor: C7.1 ACCERT",
+      "Peso Neto: 30,000 kg",
+      "Capacidad de Cuchara: 1.76 M3"
     ]
   },
   {
