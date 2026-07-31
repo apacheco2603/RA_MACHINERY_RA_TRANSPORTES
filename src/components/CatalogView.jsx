@@ -16,14 +16,14 @@ const machineryList = [
   },
   {
     id: 2,
-    name: "Cargador Frontal 966H",
-    category: "Carga y Acarreo",
-    image: "/cargador.jpg",
-    description: "Equipo importado de Europa, mantenimiento realizado con repuestos originales.",
+    name: "CATERPILLAR 330 FL",
+    category: "Movimiento de Tierras / Minería",
+    image: "/cat-330-fl.jpg",
+    description: "Equipo importado directamente. Inspeccionado y listo para operar.",
     specs: [
-      "Motor: C7.1 Acert",
-      "Peso Neto: 23,200 kg",
-      "Capacidad de Cuchara: 3.4 m³"
+      "Motor: C7.1 ACCERT",
+      "Peso Neto: 31,000 kg",
+      "Capacidad de Cuchara: 1.76 M3"
     ]
   },
   {
