@@ -37,6 +37,18 @@ const machineryList = [
       "Peso Neto: 37,200 kg",
       "Capacidad de Cuchara: 2.27 M3"
     ]
+  },
+  {
+    id: 4,
+    name: "VOLVO L150F",
+    category: "Carga y Acarreo",
+    image: "/volvo-l150f.jpg",
+    description: "Cargador frontal robusto y eficiente, diseñado para máxima productividad.",
+    specs: [
+      "Motor: D12D",
+      "Peso Neto: 23,400 kg",
+      "Capacidad de Cuchara: 4.2 M3"
+    ]
   }
 ];
 
