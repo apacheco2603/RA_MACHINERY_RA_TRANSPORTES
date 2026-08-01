@@ -11,9 +11,8 @@ const nextConfig: NextConfig = {
             stringArray: true,
             stringArrayThreshold: 0.75,
             compact: true,
-            controlFlowFlattening: false,
           },
-          ["**/node_modules/**"]
+          ['*/_next/static/chunks/framework*.js', '*/_next/static/chunks/main*.js']
         )
       );
     }
